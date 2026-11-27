@@ -64,6 +64,8 @@ If the purchase is under about $200, or the question is only "which card", answe
   - English: Slickdeals, Doctor of Credit, Reddit (for example r/buildapcsales).
   - Chinese: USCardForum (美卡论坛), USCreditCardGuide (美卡指南), Dealmoon (北美省钱快报).
 
+  To search Dealmoon for the product, use `https://www.dealmoon.com/cn/search?lang=cn&q=<keywords>`, which redirects to a results page at `/cn/top/<keywords>`. Short model keywords work better than full product titles. Dealmoon also posts store-wide sales and sometimes exclusive promo codes; check whether such a code stacks with the portal, because codes from other sites often break portal tracking.
+
   A forum data point stays unverified until you confirm it on the live page.
 - **Point valuation.** Use the shopper's chosen source; if none, use The Points Guy's current monthly valuations at `thepointsguy.com/loyalty-programs/monthly-valuations/`, looked up today. If you can only find an older month, say which month you used. Also compute a floor value: the profile's cash-out rate, or 1¢ per point. When the result hinges on valuation, use Frequent Miler's Reasonable Redemption Values as a tiebreaker.
 
