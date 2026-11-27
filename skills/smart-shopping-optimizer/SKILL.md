@@ -12,7 +12,7 @@ Produce a purchase plan the shopper can execute right now: which merchant, throu
 - **Verify, never guess.** Prices, promo codes, portal rates, card offers, point valuations, bonus caps and card benefit terms all change. Count a discount in the guaranteed Net Cost only if you verified it live today. Tag everything else.
 - **Reliability before marginal savings.** On big-ticket items, prefer authorized sellers, clean return policies and cards with Extended Warranty, Purchase Protection and Return Protection. Skip gray-market sellers and third-party marketplace listings unless the shopper asks for them.
 - **Keep it simple.** Do not suggest gift-card resale sites or multi-step gift-card loops. Mention a simple, high-trust discounted gift card (for example one sold by a warehouse club) only when the saving is substantial, and warn that paying by gift card usually forfeits the card's warranty and purchase protection.
-- **The shopper buys, not you.** You may add items to a cart, test promo codes and read the final total, but never place the order or submit payment. Ask before clicking "Add to card" on an offer or changing any account setting. Never type passwords or card numbers. If a page needs a sign-in, ask the shopper to sign in.
+- **The shopper buys, not you.** You may add items to a cart, test promo codes and read the final total, but never place the order or submit payment. Never submit a name-your-price offer (for example on Greentoe) either: an offer commits the shopper to buy, and the card is charged automatically if a retailer accepts. Ask before clicking "Add to card" on an offer or changing any account setting. Never type passwords or card numbers. If a page needs a sign-in, ask the shopper to sign in.
 - **Speak the shopper's language.** Reply in the language they write in. Keep merchant, card and product names in their original form.
 - **The shopper's own rules win.** If their profile has spending rules (valuation source, protection preferences, cards to avoid), follow them over the defaults here.
 
@@ -47,6 +47,7 @@ If the purchase is under about $200, or the question is only "which card", answe
 
 ### 2. Establish price baselines and history
 - Check current prices at authorized merchants that carry the item: Amazon ("ships from and sold by Amazon"), Best Buy, Costco, B&H, Adorama, Walmart, Target, and the manufacturer's own store.
+- For TVs, home theater, cameras and lenses, optics, appliances and other categories it covers, check a name-your-price marketplace of authorized retailers such as Greentoe. Read the suggested offer price from the product page; see [references/retail-programs.md](references/retail-programs.md). It often beats the lowest advertised price, but the shopper has to wait days and may not get the price.
 - Add every channel the profile unlocks: employee discount links, employee purchase portals (Perks at Work, manufacturer employee or partner stores), education pricing if eligible, and warehouse-club member pricing.
 - Check price history with Keepa or CamelCamelCamel for Amazon, and with Slickdeals history or deal threads for other stores. Say whether today's price is at or near the all-time low, typical, or inflated.
 - Price everything with sales tax for the shopper's location, plus shipping.
@@ -106,6 +107,7 @@ Net Cost = verified checkout total (tax + shipping)
 ```
 
 - Card rewards usually earn on the amount including tax. A card that rebates sales tax changes that base, so compute it on the real charge.
+- A name-your-price offer (Greentoe) is an all-in price that already includes tax and shipping. Compare it with other paths' checkout totals, not their pre-tax prices. Its Net Cost holds only if a retailer accepts, so present it as "if accepted", say how many days it takes, and pair it with a fallback path. If the fallback is a deal that ends soon (a temporary portal boost, a holiday price), say whether the wait risks losing it.
 - Respect caps. Treat a membership fee as sunk unless the shopper would join just for this purchase.
 - Show points-based paths at both the chosen valuation and the floor value.
 - Name the trade-offs, especially:
@@ -126,7 +128,7 @@ Net Cost = verified checkout total (tax + shipping)
    |---|---|---|---|---|
 
 3. **Status tags** on every discount, rate and offer: `[Verified Live]` (checked today), `[Forum DP - Unverified]` (recent community report, not counted), `[Assumption]` (from the profile or a stated assumption). You may translate the tags into the shopper's language, but use the same three throughout one answer.
-4. **Execution checklist.** Numbered steps with a link to every page and deal thread, for example: activate the offer, open the portal, open the merchant, check out with a named card. The last step is "you place the order". Follow it with any post-purchase reminders from Step 7.
+4. **Execution checklist.** Numbered steps with a link to every page and deal thread, for example: activate the offer, open the portal, open the merchant, check out with a named card. For a name-your-price path, give the suggested offer amount and duration, and say what to do if no retailer accepts. The last step is "you place the order" (or "you submit the offer"). Follow it with any post-purchase reminders from Step 7.
 
 ## Gotchas
 

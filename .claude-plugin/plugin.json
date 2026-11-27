@@ -1,7 +1,7 @@
 {
   "name": "smart-spending",
   "description": "Skills for spending smarter: stack your own cards, memberships, portals and live deals for big purchases (flights and hotels coming).",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": { "name": "sly9" },
   "repository": "https://github.com/sly9/smart-spending-skills",
   "license": "MIT"
