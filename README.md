@@ -8,7 +8,7 @@ Claude skills for spending smarter. Each skill stacks **your own** credit cards,
 |---|---|---|
 | [smart-shopping-optimizer](skills/smart-shopping-optimizer/SKILL.md) | 大件零售和电子产品：去哪买、什么时候买、刷哪张卡、到手价多少 / Big-ticket retail and electronics: where, when, which card, verified net cost | ✅ |
 | flight-optimizer | 机票：现金还是积分、转点、刷哪张卡 / Flights: cash vs. points, transfers, card choice | 🚧 planned |
-| hotel-optimizer | 酒店：现金还是积分、会籍、FHR/THC、刷哪张卡 / Hotels: cash vs. points, elite status, premium-card programs | 🚧 planned |
+| [hotel-optimizer](skills/hotel-optimizer/SKILL.md) | 酒店：现金、积分还是房券，官网、FHR / The Edit 还是 OTA，刷哪张卡，算上权益和取消政策的到手价 / Hotels: cash, points or certificates; direct, premium-card programs or agencies; which card; net cost with benefits and cancellation terms | 🧪 beta |
 
 ## 安装 / Install
 
@@ -34,14 +34,14 @@ Copy `skills/<name>/` to `~/.claude/skills/<name>/`.
 skill 会按这个顺序找你的信息：
 1. 你的 CLAUDE.md、记忆或 Claude 账号偏好里指明的位置（私人 repo、文件或文档）
 2. 对话里附上的档案
-3. 都没有的话，按 [profile template](skills/smart-shopping-optimizer/references/profile-template.md) 问你最基本的信息
+3. 都没有的话，按模板问你最基本的信息（[购物](skills/smart-shopping-optimizer/references/profile-template.md)、[酒店](skills/hotel-optimizer/references/profile-template.md)）
 
 最省事的做法：按模板填一份，存到你自己的地方，然后在 CLAUDE.md（或者 claude.ai → Settings → Profile 的偏好设置）里加一句：
 
 The skill looks for your profile in this order:
 1. A location named in your CLAUDE.md, memory or Claude account preferences (a private repo, file or doc).
 2. A profile attached in the conversation.
-3. Otherwise, it asks you the basics from the [profile template](skills/smart-shopping-optimizer/references/profile-template.md).
+3. Otherwise, it asks you the basics from the profile template ([shopping](skills/smart-shopping-optimizer/references/profile-template.md), [hotels](skills/hotel-optimizer/references/profile-template.md)).
 
 The easiest setup is to fill in the template, keep it somewhere of yours, and add one line to your CLAUDE.md or claude.ai preferences:
 

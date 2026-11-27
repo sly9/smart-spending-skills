@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "smart-spending",
-      "description": "Smart shopping optimizer (flights and hotels coming): verified net cost across your cards, memberships, portals and live deals.",
+      "description": "Smart shopping and hotel optimizers (flights coming): verified net cost across your cards, memberships, portals and live deals.",
       "source": "./",
       "category": "productivity"
     }
