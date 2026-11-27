@@ -58,13 +58,13 @@ If the purchase is under about $200, or the question is only "which card", answe
   - the flat-rate fallback
 
   Note caps and how much room is left this quarter or year, if known. The merchant-tied programs in [references/retail-programs.md](references/retail-programs.md) are worth evaluating when the shopper has them.
-- **Portals.** Use CashbackMonitor to compare portals for the merchant. Apply the payout currency from the profile (some portals pay points, not cash). Read the merchant's exclusions on the portal page, and note what breaks tracking.
+- **Portals.** Use CashbackMonitor (cashbackmonitor.com) to compare portals for the merchant. Apply the payout currency from the profile (some portals pay points, not cash). Open the merchant's page on the portal itself (on Rakuten it is usually `rakuten.com/shop/<merchant>`, for example `rakuten.com/shop/bhphotovideo`). Read the merchant's exclusions there, note any temporary boost, and note what breaks tracking.
 - **Deals and data points.**
   - English: Slickdeals, Doctor of Credit, Reddit (for example r/buildapcsales).
   - Chinese: USCardForum (美卡论坛), USCreditCardGuide (美卡指南), Dealmoon (北美省钱快报).
 
   A forum data point stays unverified until you confirm it on the live page.
-- **Point valuation.** Use the shopper's chosen source; if none, use The Points Guy's current monthly valuations, looked up today. Also compute a floor value: the profile's cash-out rate, or 1¢ per point. When the result hinges on valuation, use Frequent Miler's Reasonable Redemption Values as a tiebreaker.
+- **Point valuation.** Use the shopper's chosen source; if none, use The Points Guy's current monthly valuations at `thepointsguy.com/loyalty-programs/monthly-valuations/`, looked up today. If you can only find an older month, say which month you used. Also compute a floor value: the profile's cash-out rate, or 1¢ per point. When the result hinges on valuation, use Frequent Miler's Reasonable Redemption Values as a tiebreaker.
 
 ### 4. Check protections
 - For the top card candidates, read the issuer's current benefit terms instead of relying on memory:
@@ -76,10 +76,16 @@ If the purchase is under about $200, or the question is only "which card", answe
   - retailer membership return windows
   - holiday return extensions
 - Weigh protection by product: high-failure or high-value electronics deserve more weight than low-risk items.
+- Compare against the manufacturer's paid protection plan (AppleCare+, Canon CarePAK and the like). If the shopper would buy that plan anyway, a card's Extended Warranty is worth less, and the path that saves more cash (for example, a sales-tax rebate) may win. Check whether the card's coverage also extends a purchased plan; terms differ.
+- When the issuer's own page lists which cards carry a benefit (for example an Extended Warranty eligible-card list), check that the candidate card is on it.
 - Paying partly with a gift card, store credit, points or buy-now-pay-later can reduce or void card coverage. Say so when a plan does that.
 
 ### 5. Verify in the browser
-Use the browser where the shopper is already signed in (for example Claude in Chrome). Fall back to a built-in browser for public pages. Verify:
+Use the browser where the shopper is already signed in (for example Claude in Chrome). Fall back to a built-in browser for public pages.
+
+First, check which of the needed accounts are signed in: card issuers, the portal, and the merchant's member pricing. If any aren't and the shopper is around, ask them once, early, to sign in (or to say skip), and do the public checks while you wait. Asking only at the end leaves the targeted offers unverified.
+
+Verify:
 - Targeted card offers. On issuers that list offers per card, check every card in the wallet.
 - Merchant and targeted promotions.
 - The live portal rate and its exclusions.
@@ -119,7 +125,7 @@ Net Cost = verified checkout total (tax + shipping)
    | Path (merchant · link/portal · card) | Checkout total | Rewards and offers | Net Cost | Protection |
    |---|---|---|---|---|
 
-3. **Status tags** on every discount, rate and offer: `[Verified Live]` (checked today), `[Forum DP - Unverified]` (recent community report, not counted), `[Assumption]` (from the profile or a stated assumption).
+3. **Status tags** on every discount, rate and offer: `[Verified Live]` (checked today), `[Forum DP - Unverified]` (recent community report, not counted), `[Assumption]` (from the profile or a stated assumption). You may translate the tags into the shopper's language, but use the same three throughout one answer.
 4. **Execution checklist.** Numbered steps with a link to every page and deal thread, for example: activate the offer, open the portal, open the merchant, check out with a named card. The last step is "you place the order". Follow it with any post-purchase reminders from Step 7.
 
 ## Gotchas

@@ -40,7 +40,7 @@ Category table (which card for what):
 | e.g. Rakuten | | |
 
 ## Employee and affiliation discounts / 员工和其他折扣
-- Employer discount links or portals:
+- Employer discount links or portals (the URL itself, or where to find it, such as an intranet page or an email):
 - Education, alumni, military or other eligibility:
 
 ## Points valuation / 积分估值
