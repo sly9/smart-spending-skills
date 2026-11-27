@@ -1,0 +1,25 @@
+name: Package skills
+
+on:
+  push:
+    branches: [main]
+    paths: ["skills/**", "scripts/package.sh"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/package.sh
+      - name: Publish the "latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest --yes --cleanup-tag || true
+          gh release create latest dist/*.zip \
+            --title "Latest skill zips" \
+            --notes "Built from ${GITHUB_SHA::7}. Upload a zip in Claude: Customize → Skills."

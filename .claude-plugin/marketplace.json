@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "smart-spending-skills",
+  "description": "Personal-finance shopping skills that read your own card and membership profile.",
+  "owner": { "name": "sly9" },
+  "plugins": [
+    {
+      "name": "smart-spending",
+      "description": "Smart shopping optimizer (flights and hotels coming): verified net cost across your cards, memberships, portals and live deals.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
